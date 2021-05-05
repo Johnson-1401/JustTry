@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <style>
+            body{
+            background-image: url('../assets/assets.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: 'Times New Roman', Times, serif;
+            }
+            .container img{
+                width: 60%;
+                height: 200px;
+            }
+        </style>
+    </head>
+<body>
+    <div class="container text-center mt-4">
+        <img src="../assets/Profile.jpg"  class="rounded-circle mt-5" alt="Profile">
+        <div class="input-group mb-4 mt-5">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">@</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Email ID" aria-label="Email ID" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">@</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+          </div>
+          <div class="row">
+          <div class="col">
+            <button type="button" class="btn btn-success w-100  mt-4" onclick="window.location.href='home.html'">Sign In</button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-success w-100 mt-4" onclick="window.location.href='signout.html'">Sign Out</button>  
+          </div>
+    </div>
+</body>
+</html>
