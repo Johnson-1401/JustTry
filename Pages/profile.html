@@ -11,6 +11,10 @@
         width: 45px;
         height:45px;
       }
+      .container img{
+        width: 40%;
+        height: 100px;
+      }
     </style>
 </head>                                                                                                                                                     
 <body>
@@ -18,7 +22,34 @@
     <a class="navbar-brand" href="#">Our Dairy</a>
     <a class="navbar-brand" href="profile.html"><img src="../assets/Profile.jpg" class="rounded-circle float-left" id="Profile" alt="..."></a> 
   </nav>
-
+  <div class="container text-center mt-4">
+    <img src="../assets/Profile.jpg"  class="rounded-circle" alt="Profile">
+    <div class="input-group mb-4 mt-4">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">@</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">@</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Email ID" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">@</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Phone No" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">@</span>
+        </div>
+        <input type="text" class="form-control" placeholder="About" aria-describedby="basic-addon1">
+      </div>
+      <button type="button" class="btn btn-success w-100 mt-4" onclick="window.location.href='disProfile.html'">Save</button>  
+  </div>
   <nav class="navbar fixed-bottom navbar-light bg-light">
     <a href="plan.html"><span class="material-icons text-dark">book</span></a>
     <a href="gallery.html"><span class="material-icons text-dark">dashboard_customize</span></a>
